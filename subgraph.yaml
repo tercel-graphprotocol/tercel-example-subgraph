@@ -1,14 +1,14 @@
 specVersion: 0.0.2
 description: Gravatar for Ethereum
-repository: https://github.com/graphprotocol/example-subgraph
+repository: https://github.com/tercel-graphprotocol/tercel-example-subgraph
 schema:
   file: ./schema.graphql
 dataSources:
   - kind: ethereum/contract
     name: Gravity
-    network: mainnet
+    network: kovan
     source:
-      address: '0x2E645469f354BB4F5c8a05B3b30A929361cf77eC'
+      address: '0xa6780055C512aa71CA0e0D0d28301D2581a2e6E1'
       abi: Gravity
     mapping:
       kind: ethereum/events
